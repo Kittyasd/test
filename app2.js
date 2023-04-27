@@ -62,7 +62,7 @@ function deserialized(mySet) {
 //Реализация теста #4
 let arr = new Array();
 
-for (let i = 0; i < 300; i++) {
+for (let i = 0; i < 1000; i++) {
     arr.add(Math.trunc(Math.random() * 300 + 1))
 }
 
