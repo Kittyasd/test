@@ -51,13 +51,14 @@ function deserialized(mySet) {
 //Реализация теста #4
 let mySet = new Set();
 
-for (let i = 0; i < 1000; i++) {
+for (let i = 0; i < 100; i++) {
     mySet.add(Math.trunc(Math.random() * 300 + 1))
 }
 
 console.log(`Исходная строка: ${Array.from(mySet)}`);
 
 let setA = serialized(mySet);
+
 console.log(`Сжатая строка: ${setA}`);
 
 let setB = deserialized(setA);
