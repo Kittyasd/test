@@ -19,8 +19,7 @@ function serialized(mySet) {
 
         check = m;
     }
-    serializedStr += counter + " ";
-    serializedStr = serializedStr.slice(0, -1);
+    serializedStr += counter;
 
     return serializedStr
 }
